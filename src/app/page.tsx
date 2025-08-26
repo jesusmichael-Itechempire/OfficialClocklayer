@@ -28,9 +28,9 @@ export default function HomePage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="glassmorphism text-foreground py-7 text-lg">
-                <Link href="/index.html">
+                <a href="/index.html">
                   Learn More About What We're Building
-                </Link>
+                </a>
               </Button>
             </div>
             <div className="mt-10 flex items-center gap-4 text-muted-foreground">
