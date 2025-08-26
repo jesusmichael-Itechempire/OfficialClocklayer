@@ -11,6 +11,8 @@
 # Next.js
 /.next/
 /out/
+# Add the build cache directory to ignore the temporary build artifacts that contain secrets
+/.netlify/.next/
 
 # Production
 /build
@@ -35,7 +37,15 @@ database-debug.log*
 firestore-debug.log*
 storage-debug.log*
 
+# Add the Firebase configuration file that contains the project ID
+.firebaserc
+# Add the index folder that contains secrets found in the build logs
+.idx/
+
 # Other
+.vercel
+*.tsbuildinfo
+next-env.d.ts
 .vercel
 *.tsbuildinfo
 next-env.d.ts
