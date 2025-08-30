@@ -28,7 +28,7 @@ export default function HomePage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="glassmorphism text-foreground py-7 text-lg">
-                <a href="/index.html">
+                <a href="https://clocklayer1.netlify.app/">
                   Learn More About What We're Building
                 </a>
               </Button>
