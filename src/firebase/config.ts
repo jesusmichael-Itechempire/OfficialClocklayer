@@ -1,10 +1,15 @@
-
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import 'firebase/auth';
 import 'firebase/firestore';
+
+
+// --- DIAGNOSTIC LOG ---
+// Let's check if the environment variables are being loaded by Netlify.
+console.log("Attempting to initialize Firebase with Project ID:", process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
+// --- END DIAGNOSTIC LOG ---
 
 
 // Your web app's Firebase configuration.
